@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Form</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="/css/payment.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- first row of input -->
+      <h2>Confirm Your Payment</h2>
+      <div class="first-row">
+        <div class="name">
+          <h4>Full Name</h4>
+          <div class="input-field">
+            <input type="text" placeholder="Enter Full Name" required />
+          </div>
+        </div>
+        <div class="cvv">
+          <h4>CVV</h4>
+          <div class="input-field">
+            <input type="password" placeholder="X X X" required/>
+          </div>
+        </div>
+      </div>
+        <!-- second row of input -->
+      <div class="second-row">
+        <div class="card-number">
+          <h4>Card Number</h4>
+          <div class="input-field">
+            <input type="text" placeholder="Enter Card Number" required />
+          </div>
+        </div>
+      </div>
+        <!-- third row of input -->
+      <div class="third-row">
+        <h4>Card Number</h4>
+        <div class="selection">
+          <div class="date">
+            <select name="month"  id="month">
+              <option value="01">Jan</option>
+              <option value="02">Feb</option>
+              <option value="03">Mar</option>
+              <option value="04">Apr</option>
+              <option value="05">May</option>
+              <option value="06">June</option>
+              <option value="07">July</option>
+              <option value="08">Aug</option>
+              <option value="09">Sept</option>
+              <option value="10">Oct</option>
+              <option value="11">Nov</option>
+              <option value="12">Dec</option>
+            </select>
+            <select name="year" id="year">
+              <option value="2023">2023</option>
+              <option value="2024">2024</option>
+              <option value="2025">2025</option>
+              <option value="2026">2026</option>
+              <option value="2027">2027</option>
+              <option value="2028">2028</option>
+              <option value="2029">2029</option>
+              <option value="2030">2030</option>
+            </select>
+          </div>
+          <!-- card images -->
+          <div class="card">
+            <img src="/img/card.png" alt="">
+          </div>
+        </div>
+      </div>
+      <a href="complete.html">Place Your Order</a>
+    </div>
+  </body>
+</html>
