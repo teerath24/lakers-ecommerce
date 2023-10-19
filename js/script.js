@@ -46,7 +46,7 @@ function ready() {
 
 // BUY BTN
 function buyButtonClicked() {
-  window.location.href = "/html/payment.html" // directing me to payment page
+  window.location.href = "./html/payment.html" // directing me to payment page
   let cartContent = document.getElementsByClassName("cart-content")[0]; // clearing the cart content.
   while (cartContent.hasChildNodes()) { //checking to see if there are child nodes.. 
     cartContent.removeChild(cartContent.firstChild); // removes the first child node of cartContent
