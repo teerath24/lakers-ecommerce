@@ -6,19 +6,24 @@ body{
     font-family: "Poppins", sans-serif;
 
 }
+a img{
+    margin-top: 2rem;
+    width: 5rem;
+    margin-left: 13.5rem;
+}
 .container{
-    height: 100vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 img{
-    width: 200px;
+    width: 180px;
 }
 h1{
     font-size: 3rem;
-    margin: 5rem;
+    margin: 3rem;
 
 }
 h2{
