@@ -32,15 +32,13 @@ h2{
 @media screen and (max-width: 414px){
     body{
         display: flex;
+        flex-direction: column;
         zoom: 35%;
     }
-    .container{
-        margin-top: 15rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
+    img{
+        font-size: 1rem;
     }
-    
+    .container{
+       
+    }
 }
