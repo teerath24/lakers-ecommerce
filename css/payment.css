@@ -74,3 +74,8 @@ a:hover{
     background: var(--box-color);
     color: var(--text-color);
 }
+@media screen and (max-width: 414px){
+    body{
+        zoom: 55%;
+    }
+}
