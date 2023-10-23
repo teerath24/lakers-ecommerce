@@ -233,6 +233,18 @@ footer{
     margin-top: 2rem !important;
   }
 }
+@media screen and (max-width: 414px) {
+  .section-title{
+  display: none;
+  }
+  .shop{
+    display: flex;
+  }
+  .shop-content {
+      display: flex; 
+      flex-direction: column;
+  }
+}
 @media (max-width: 400px) {
   .nav {
     padding: 11px;
