@@ -78,5 +78,7 @@ a:hover{
     body{
         zoom: 55%;
     }
-   
+   .container{
+    padding: 0;
+   }
 }
